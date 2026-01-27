@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hero Section</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50">
+
+  <!-- Wrapper -->
+  <div class="min-h-screen flex items-center justify-center px-4">
+
+    <!-- Main Card -->
+    <div class="bg-white max-w-[1440px] w-full min-h-[90vh] relative overflow-hidden rounded-2xl shadow-lg">
+
+      <!-- Grid -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 min-h-[90vh]">
+
+        <!-- LEFT CONTENT -->
+        <div class="px-6 sm:px-10 lg:px-20 flex flex-col justify-center">
+          <h1 class="text-[32px] sm:text-[40px] lg:text-[48px] font-bold leading-tight text-[#140C40]">
+            Templates built<br />
+            for tomorrow’s<br />
+            unicorns.
+          </h1>
+
+          <p class="mt-6 text-gray-600 max-w-md text-[15px] sm:text-[16px]">
+            Beautiful, responsive websites made for startups,
+            tech, and everything in between.
+          </p>
+
+          <div class="mt-8 flex flex-col sm:flex-row gap-4">
+            <button
+              class="flex items-center justify-center rounded-full gap-2 px-7 py-3 bg-indigo-500 text-white shadow-lg hover:bg-indigo-600 transition">
+              Work with us
+              <span>↗</span>
+            </button>
+
+            <a href="#" class="flex items-center gap-2 text-gray-700 hover:text-indigo-500 transition">
+              Learn more
+              <span>↗</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <div class="relative hidden lg:block">
+          <div class="absolute inset-0 bg-gradient-to-br from-indigo-50 via-white to-indigo-200"></div>
+        </div>
+      </div>
+
+      <!-- Bottom Navigation -->
+      <div
+        class="absolute left-1/2 bottom-4 -translate-x-1/2 bg-white shadow-lg px-4 py-2 flex flex-wrap items-center justify-center gap-2 rounded-full">
+        
+        <span
+          class="bg-indigo-500 text-white px-4 py-1 text-sm rounded-full cursor-pointer hover:bg-indigo-600 transition">
+          Home
+        </span>
+
+        <a class="text-gray-600 hover:text-indigo-500 text-sm px-3 py-1 transition" href="#">About</a>
+        <a class="text-gray-600 hover:text-indigo-500 text-sm px-3 py-1 transition" href="#">Services</a>
+        <a class="text-gray-600 hover:text-indigo-500 text-sm px-3 py-1 transition" href="#">Contact</a>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
