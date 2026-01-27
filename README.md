@@ -9,4 +9,3 @@ A simple hero section built using HTML and Tailwind CSS.
 
 ## How to use
 1. Open `index.html`
-2. Enjoy the hero section
