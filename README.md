@@ -1,5 +1,5 @@
                          
-# Hero Section
+# Hero Section 
 
 A simple hero section built using HTML and Tailwind CSS.
 
